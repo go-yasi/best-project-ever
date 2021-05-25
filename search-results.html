@@ -4,9 +4,94 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/search-style.css">
+    <title>Search Results</title>
 </head>
 <body>
     
+    <div class="container">
+        <div class="row">
+          <!-- Sidebar -->
+          <div class="col-12 col-md-3 sidebar">
+            <h2 class="sidebar-header">Library of Congress Search Engine</h2>
+            <!-- Search Form -->
+            <form>
+                <div class="form-group">
+                  <input type="search" class="form-control search-bar" area-label="Search" placeholder="Search">
+                </div>
+                <div class="form-group">
+                  <select class="form-control select-format" id="exampleFormControlSelect1">
+                    <option>Example Option</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                  </select>
+                </div>
+                <button class="btn my-2 search-button" type="submit">Search</button>
+              </form> 
+
+          </div>
+          <!-- Search Results -->
+          <div class="col-12 col-md-9 search-results-div">
+            <h2 class="header-title">Search Results</h2>
+            <div class="results">
+                <div class="search-result">
+                    <h3 class="result-title">Title of Search Result</h3>
+                    <p class="result-date">Date: XXXX</p>
+                    <p class="result-subjects">Subjects: xxx, xxx, xxx</p>
+                    <p class="result-description">Description: Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</p>
+                    <button class="btn my-2 read-more-button">Read More</button>
+                </div>
+                <div class="search-result">
+                    <h3 class="result-title">Title of Search Result</h3>
+                    <p class="result-date">Date: XXXX</p>
+                    <p class="result-subjects">Subjects: xxx, xxx, xxx</p>
+                    <p class="result-description">Description: Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</p>
+                    <button class="btn my-2 read-more-button">Read More</button>
+                </div>
+                <div class="search-result">
+                    <h3 class="result-title">Title of Search Result</h3>
+                    <p class="result-date">Date: XXXX</p>
+                    <p class="result-subjects">Subjects: xxx, xxx, xxx</p>
+                    <p class="result-description">Description: Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</p>
+                    <button class="btn my-2 read-more-button">Read More</button>
+                </div>
+                <div class="search-result">
+                    <h3 class="result-title">Title of Search Result</h3>
+                    <p class="result-date">Date: XXXX</p>
+                    <p class="result-subjects">Subjects: xxx, xxx, xxx</p>
+                    <p class="result-description">Description: Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</p>
+                    <button class="btn my-2 read-more-button">Read More</button>
+                </div>
+                <div class="search-result">
+                    <h3 class="result-title">Title of Search Result</h3>
+                    <p class="result-date">Date: XXXX</p>
+                    <p class="result-subjects">Subjects: xxx, xxx, xxx</p>
+                    <p class="result-description">Description: Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</p>
+                    <button class="btn my-2 read-more-button">Read More</button>
+                </div>
+                <div class="search-result">
+                    <h3 class="result-title">Title of Search Result</h3>
+                    <p class="result-date">Date: XXXX</p>
+                    <p class="result-subjects">Subjects: xxx, xxx, xxx</p>
+                    <p class="result-description">Description: Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</p>
+                    <button class="btn my-2 read-more-button">Read More</button>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    
+    
 </body>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
 </html>
