@@ -10,43 +10,24 @@
     <title>Library of Congress Search Engine</title>
 </head>
 
-<body>
-    <section>
-        <form>
-            <h1 class="home-page-header">Library of Congress Search Engine</h1>
-            <section class = "home-form-div">
-                <input class="home-search-input" id="search" type="text" placeholder="Search"/>                                  
-                <select class ="format-select">
-                    <option>Select a format</option>
-                    <option>1</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                </select>
-                <button class="btn home-search-button" type="search">Search</button>
-            </section>               
-            
-        </form>
-    </section>
-
-
-    <section class="home-page-form"> 
-        <form id="search-form" class="form w-100">
-        <input id="search-input" class="form-input w-100" type="text" placeholder="Search!">
-        <select id="format-input" class="form-input w-100">
-          <option value="" disabled selected>Select a format...</option>
-          <option value="maps">Maps</option>
-          <option value="audio">Audio</option>
-          <option value="photos">Photos</option>
-          <option value="manuscripts">Manuscripts</option>
-          <option value="newspapers">Newspapers</option>
-          <option value="film-and-videos">Film and Videos</option>
-          <option value="notated-music">Notated Music</option>
-          <option value="websites">Websites</option>
-        </select>
-        <button class="btn btn-info btn-block">Click Me</button>
-      </form>
-        
+<body class="home-body">
+    <section class="home-main">
+        <h1 class="home-header">Library of Congress Search Engine</h1>
+        <section class = "form-home">
+            <input class="home-text-input" id="search" type="text" placeholder="Search" />
+            <select id="format-input" class="form-input">
+                <option value="" disabled selected>Select a format...</option>
+                <option value="maps">Maps</option>
+                <option value="audio">Audio</option>
+                <option value="photos">Photos</option>
+                <option value="manuscripts">Manuscripts</option>
+                <option value="newspapers">Newspapers</option>
+                <option value="film-and-videos">Film and Videos</option>
+                <option value="notated-music">Notated Music</option>
+                <option value="websites">Websites</option>
+            </select>  
+            <button id="searchBtn">Search</button>
+        </section>
     </section>
 
     <script src ="js/api.js"></script>
