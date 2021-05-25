@@ -20,16 +20,19 @@
             <input class="home-text-input" id="search" type="text" placeholder="Search!" />
                                              
             <section class="flex-row">    
-            <select class ="format-select">
-                <option>Select a format...</option>
-                <option>1</option>
-                <option>2</option>
-                <option>3</option>
-                <option>4</option>
-              </select>
-            </section>
+                <select id="format-input" class="form-input w-100">
+                    <option value="" disabled selected>Select a format...</option>
+                    <option value="maps">Maps</option>
+                    <option value="audio">Audio</option>
+                    <option value="photos">Photos</option>
+                    <option value="manuscripts">Manuscripts</option>
+                    <option value="newspapers">Newspapers</option>
+                    <option value="film-and-videos">Film and Videos</option>
+                    <option value="notated-music">Notated Music</option>
+                    <option value="websites">Websites</option>
+                </select>
                  
-            <button class="home btn" type="click me">Click Me</button>
+            <button id="searchBtn">Click Me</button>
         
     </form>
     </section>
