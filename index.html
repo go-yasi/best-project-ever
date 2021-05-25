@@ -4,37 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/search-style.css">
     <!--<link rel="stylesheet" href="./""/>-->
     <!--<link rel="stylesheet" href="./""/>-->
-    <title>Best Project Ever</title>
+    <title>Library of Congress Search Engine</title>
 </head>
 
-<body>
-    <section>
-    <form>
-        <h1>Library of Congress Search Engine</h1>
-      
-                    
+<body class="home-body">
+    <section class="home-main">
+        <h1 class="home-header">Library of Congress Search Engine</h1>
         <section class = "form-home">
-            <input class="home-text-input" id="search" type="text" placeholder="Search!" />
-                                             
-            <section class="flex-row">    
-                <select id="format-input" class="form-input w-100">
-                    <option value="" disabled selected>Select a format...</option>
-                    <option value="maps">Maps</option>
-                    <option value="audio">Audio</option>
-                    <option value="photos">Photos</option>
-                    <option value="manuscripts">Manuscripts</option>
-                    <option value="newspapers">Newspapers</option>
-                    <option value="film-and-videos">Film and Videos</option>
-                    <option value="notated-music">Notated Music</option>
-                    <option value="websites">Websites</option>
-                </select>
-                 
-            <button id="searchBtn">Click Me</button>
-        
-    </form>
+            <input class="home-text-input" id="search" type="text" placeholder="Search" />
+            <select id="format-input" class="form-input">
+                <option value="" disabled selected>Select a format...</option>
+                <option value="maps">Maps</option>
+                <option value="audio">Audio</option>
+                <option value="photos">Photos</option>
+                <option value="manuscripts">Manuscripts</option>
+                <option value="newspapers">Newspapers</option>
+                <option value="film-and-videos">Film and Videos</option>
+                <option value="notated-music">Notated Music</option>
+                <option value="websites">Websites</option>
+            </select>  
+            <button id="searchBtn">Search</button>
+        </section>
     </section>
 
     <script src ="js/api.js"></script>

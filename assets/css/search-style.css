@@ -5,6 +5,7 @@
     --palepink: #fff3f5;
     --paleyellow: #faf3d5;
     --offwhite: #f1f1f1;
+    --gray: #dfdfdf;
 }
 
 * {
@@ -121,4 +122,56 @@ body {
 
 .read-more-button:hover {
     color: blue;
+}
+
+/* HOME PAGE EDITS */
+.home-body {
+    background-color: var(--gray);
+    margin: 10%;
+}
+
+.home-main {
+    border: 4px solid black;
+    padding-bottom:5%;
+    background-color: var(--palegreen);
+}
+
+.home-header {
+    text-align: center;
+}
+
+.form-home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    margin: 0 auto;
+}
+.home-text-input {
+    border: 4px solid black;
+    padding: 2%;
+    width: 100%;
+}
+
+.form-input {
+    margin-top: 25px;
+    width: 100%;
+    border: 4px solid black;
+    padding: 2%;
+}
+
+#searchBtn {
+    margin-top: 25px;
+    width: 100%;
+    font-weight: bold;
+    background-color: white;
+    border-radius: 0;
+    border: 4px solid black;
+    text-transform: uppercase;
+    padding: 10px 0;
+}
+
+#searchBtn:hover{
+    background-color: var(--paleyellow);
+    color: black;
 }
