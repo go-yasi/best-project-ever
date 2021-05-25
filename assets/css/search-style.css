@@ -122,3 +122,21 @@ body {
 .read-more-button:hover {
     color: blue;
 }
+
+/* MAIN HOME PAGE */
+.home-form-div {
+    border: 1px solid red;
+    padding: 5%;
+}
+.home-search-input {
+    border: 1px solid green;
+    padding: 5%;
+}
+.flex-row {
+    border: 1px solid blue;
+    padding: 5%;
+}
+.format-select {
+    border: 1px solid yellow;
+    padding: 5%;
+}
