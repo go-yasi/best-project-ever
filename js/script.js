@@ -1,3 +1,22 @@
+var searchBtn = document.getElementById("searchBtn");
+var searchInput = document.getElementById("search");
+var readMoreBtn = document.getElementsByClassName("read-more-button");
+
+
+
+
+
+
+
+function searchFunction() {
+    searchInput.submit();
+}
+
+
+searchBtn.addEventListener("click", function (){
+    window.location.replace('./search-results.html');
+})
+
 //var url = 'https://www.loc.gov/search?fo=json&q=los-angeles';
 var baseUrl = 'https://www.loc.gov/search?fo=json';
 var urlParmaeter = '&q=los-angeles';
