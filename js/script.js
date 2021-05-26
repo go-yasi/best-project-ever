@@ -9,9 +9,9 @@ function searchFunction() {
 }
 
 
-readMoreBtn.addEventListener("click", function(){
-    window.location.assign('https://www.loc.gov/?fo=json');
-})
+//readMoreBtn.addEventListener("click", function(){
+//    window.location.assign('https://www.loc.gov/?fo=json');
+//})
 
 searchBtn.addEventListener("click", function (){
     window.location.replace('./search-results.html');
